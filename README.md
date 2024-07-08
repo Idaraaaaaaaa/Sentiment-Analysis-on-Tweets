@@ -19,3 +19,7 @@ The dataset we are using for this project is Kaggle's Sentiment140 dataset with 
 5.user: the user that tweeted (robotickilldozr)
 
 6.text: the text of the tweet (Lyx is cool)
+
+Data Collection
+
+Given the size of our dataset, we utilize the Kaggle API to seamlessly transfer data from Kaggle's environment to Google Colab. Begin by generating a new API token in your Kaggle account, which will download a kaggle.json file. Upload this file to your Colab environment:
