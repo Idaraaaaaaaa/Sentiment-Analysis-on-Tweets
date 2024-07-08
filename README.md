@@ -6,7 +6,7 @@ Analyzing sentiment in social media, particularly Twitter, presents a complex ch
 This project aims to develop an advanced sentiment analysis model using Twitter data, focusing on classifying tweets as positive or negative based on their content. We aim to employ Natural Language Processing (NLP) techniques for robust text preprocessing, including tokenization, stopwords removal, and lemmatization. The model will utilize Logistic Regression, a well-established classification algorithm, to accurately predict sentiment labels. The insights gained from this analysis will provide a valuable understanding of public sentiment trends on Twitter, facilitating applications in market research, brand management, and social listening.
 
 Dataset description
-The dataset we are using for this project is Kaggle's Sentiment140 dataset with 1.6 million tweets, which can be downloaded from the provided link.The sentiment140 dataset contains 1,600,000 tweets extracted using the twitter api . The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment . It contains the following 6 fields:
+The dataset we are using for this project is Kaggle's Sentiment140 dataset with 1.6 million tweets, which can be downloaded from the provided link(https://www.kaggle.com/datasets/kazanova/sentiment140).The sentiment140 dataset contains 1,600,000 tweets extracted using the twitter api . The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment . It contains the following 6 fields:
 
 1.target: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
 
